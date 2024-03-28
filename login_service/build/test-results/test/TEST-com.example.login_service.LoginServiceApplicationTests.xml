@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.login_service.LoginServiceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-26T13:59:23" hostname="KHOI-205" time="1.043">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.login_service.LoginServiceApplicationTests" time="1.043"/>
+  <system-out><![CDATA[20:59:21.032 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.login_service.LoginServiceApplicationTests]: LoginServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:59:21.221 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.login_service.LoginServiceApplication for test class com.example.login_service.LoginServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-03-26T20:59:22.192+07:00  INFO 9728 --- [login_service] [    Test worker] c.e.l.LoginServiceApplicationTests       : Starting LoginServiceApplicationTests using Java 17.0.1 with PID 9728 (started by Admin in D:\workspace\springboot\de-T2\login_service)
+2024-03-26T20:59:22.193+07:00  INFO 9728 --- [login_service] [    Test worker] c.e.l.LoginServiceApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-03-26T20:59:23.970+07:00  INFO 9728 --- [login_service] [    Test worker] c.e.l.LoginServiceApplicationTests       : Started LoginServiceApplicationTests in 2.313 seconds (process running for 4.288)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

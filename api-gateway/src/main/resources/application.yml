@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: register
+          uri: lb://registerService
+          predicates:
+            - Path=/v2/**
+          filters:
+            - name: AuthenticationFilter
+        - id: login
+          uri: lb://loginService
+          predicates:
+            - Path=/v1/**
+          filters:
+            - name: AuthenticationFilter
+
+        - id: auth
+          uri: lb://auth
+          predicates:
+            - Path=/**
